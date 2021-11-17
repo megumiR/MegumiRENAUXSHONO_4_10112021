@@ -369,18 +369,16 @@ a:hover {
 }
 .titlewidth{
     max-width: 613px;
-    text-align: center;
 }
 .titlewidth2{
     max-width: 460px;
-    text-align: center;
 }
 .citation{
     max-width: 560px;
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 .citationName{
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 /*added elements*/
 
@@ -1054,6 +1052,13 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+/*added elements*/
+    .titlewidth{
+        max-width: 290px;
+    }
+    .titlewidth2{
+        max-width: 260px;
     }
 }
 
