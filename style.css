@@ -759,11 +759,7 @@ h4 {
 .white {
     color: #FFFFFF!important; 
 }
-/*qdded element*/
-#bloc-8 .white{
-    color: #424242!important;
-}
-/*till here*/
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -796,7 +792,8 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+   /* background: #F3976C;  */
+   background-color: #EF6F34;
 }
 
 .tc-white {
@@ -823,7 +820,8 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+   /* background: #F3976C;  */
+   background-color: #EF6F34;
 }
 
 .ltc-atomic-tangerine:hover {
