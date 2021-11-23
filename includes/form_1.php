@@ -6,7 +6,7 @@
 	
 	$name = $_POST['name'];
 	$email = $_POST['email'];
-	$input_504 = $_POST['input_504'];
+	$input_504 = $_POST['input_504']; //removed and replaced to message in Contact.html
 	$message = $_POST['message'];
 	
 	$to = 'receiver@yoursite.com'; // Email submissions are sent to this email

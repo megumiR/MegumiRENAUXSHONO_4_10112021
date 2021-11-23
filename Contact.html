@@ -101,9 +101,14 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." 
-				fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate 
+				action="/includes/form_1.php"
+				onsubmit="myFunction()">
+<!--				success-msg="" 
+				fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"			
+-->
 					<div class="form-group">
+
 						<label>
 							Nom
 						</label>
@@ -130,6 +135,13 @@
 						Envoyer
 					</button>
 				</form>
+<!--in html???-->
+				<script>
+					function myFunction() {
+						alert("Your message has been sent.")
+					}
+				</script>
+
 			</div>
 			<div class="col-sm-6">
 				<p>
