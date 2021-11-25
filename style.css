@@ -382,7 +382,10 @@ a:hover {
 .citationName{
     font-size: 1.2rem;
 }
-
+.black{
+    color: #000!important;
+}
+*/
 /*added elements*/
 
 @media (min-width: 768px) {
@@ -673,11 +676,19 @@ h6,
 p,
 label,
 .btn,
-a {
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
 }
+/*added*/
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #000!important;
+}
+
+
 
 .container {
     max-width: 1000px;
